@@ -2,7 +2,8 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "paths": ["./src"]
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
   },
@@ -25,10 +26,7 @@
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/no-explicit-any": 0,
     "radix": 0,
-    "import/no-extraneous-dependencies": 0,
-    "import/extensions": ['error', 'always', {,
-      js: 'never',
-      vue: 'never'
+    "import/no-extraneous-dependencies": 0
     // End temporary rules
   }
 }
