@@ -26,7 +26,7 @@
     "@typescript-eslint/no-explicit-any": 0,
     "radix": 0,
     "import/no-extraneous-dependencies": 0,
-    "import/extensions": ['error', 'always', {
+    "import/extensions": ['error', 'always', {,
       js: 'never',
       vue: 'never'
     // End temporary rules
