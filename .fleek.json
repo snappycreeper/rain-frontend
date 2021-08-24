@@ -1,0 +1,11 @@
+{
+ "build": {
+   "image": "node:fleek/create-react-app:node-10",
+   "command": "yarn && yarn build",
+   "publicDir": "build",
+   "baseDir": "src",
+   "environment": {
+     "SOME_ENV": "Build finished!"
+   }
+ }
+}
