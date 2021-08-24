@@ -4,7 +4,7 @@
       "typescript": {
          "alwaysTryTypes": true
       }
-      "node": {
+      ,"node": {
         "paths": ["src"]
       }
     }
