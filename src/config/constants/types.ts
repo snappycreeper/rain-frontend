@@ -29,6 +29,8 @@ export enum QuoteToken {
   'TWT' = 'TWT',
   'UST' = 'UST',
   'WONE' = 'WONE',
+  'VIPER' = 'VIPER',
+  'XYA' = 'XYA',
 }
 
 export enum PoolCategory {

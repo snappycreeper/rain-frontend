@@ -29,4 +29,14 @@ export default {
     1666600000: '0xe176ebe47d621b984a73036b9da5d834411ef734',
     97: '',
   },
+  viper: {
+    // this is VIPER "0xea589e93ff18b1a1f1e9bac7ef3e86ab62addc79"
+    1666600000: '0xea589e93ff18b1a1f1e9bac7ef3e86ab62addc79',
+    97: '',
+  },
+  xya: {
+    // this is XYA "0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4"
+    1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
+    97: '',
+  },
 }

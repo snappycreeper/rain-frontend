@@ -51,6 +51,38 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   }, */
   {
+    pid: 4,
+    risk: 2,
+    lpSymbol: 'RAIN-VIPER LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x79118dbed6b6ff060d62d38781c8e79441be88f9',
+    },
+    tokenSymbol: 'RAIN',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+    },
+    quoteTokenSymbol: QuoteToken.VIPER,
+    quoteTokenAdresses: contracts.viper,
+  },
+  {
+    pid: 5,
+    risk: 2,
+    lpSymbol: 'RAIN-XYA LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x4eb51880acec7cda64977d1cc35eddb9100ce1b5',
+    },
+    tokenSymbol: 'RAIN',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+    },
+    quoteTokenSymbol: QuoteToken.XYA,
+    quoteTokenAdresses: contracts.xya,
+  },
+  {
     pid: 2,
     risk: 3,
     lpSymbol: 'WONE-BUSD LP',
@@ -89,7 +121,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'RAIN-VIPER LP',
     lpAddresses: {
       97: '',
-      1666600000: '0x7561eee90e24f3b348e1087a005f78b4c8453524',
+      1666600000: '0x79118dbed6b6ff060d62d38781c8e79441be88f9',
     },
     tokenSymbol: 'RAIN',
     tokenAddresses: {
