@@ -1,4 +1,4 @@
-import CardValue from 'c:/Users/Ashton Hochanadel/Desktop/snappy-swap/gooseswap/goose-frontend-farms-master/src/views/Home/components/CardValue'
+import CardValue from 'views/Home/components/CardValue'
 
 export type IfoStatus = 'coming_soon' | 'live' | 'finished'
 
