@@ -132,10 +132,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  /* {
-    pid: 5,
-    risk: 2,
-    lpSymbol: 'ETH-BNB LP',
   {
     pid: 7,
     risk: 3,
