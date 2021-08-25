@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://info.viper.exchange/token/0xa95f77abc1fafafdd16d18b8700f670bf8bc990c"
+      priceLink="https://info.viper.exchange/token/0xd009b07B4a65CC769379875Edc279961D710362d"
       {...props}
     />
   )
