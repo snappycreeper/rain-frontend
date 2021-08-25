@@ -83,6 +83,54 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.xya,
   },
   {
+    pid: 8,
+    risk: 2,
+    lpSymbol: 'RAIN-JEWEL LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x359715a5beed69f1d0b8238dd9e0945f77b6a826',
+    },
+    tokenSymbol: 'RAIN',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+    },
+    quoteTokenSymbol: QuoteToken.JEWEL,
+    quoteTokenAdresses: contracts.jewel,
+  },
+  {
+    pid: 10,
+    risk: 2,
+    lpSymbol: 'RAIN-KURO LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x3b01b988671e508207c2adaa87bed68981226c04',
+    },
+    tokenSymbol: 'RAIN',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+    },
+    quoteTokenSymbol: QuoteToken.KURO,
+    quoteTokenAdresses: contracts.kuro,
+  },
+  {
+    pid: 11,
+    risk: 2,
+    lpSymbol: 'RAIN-SONIC LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x0337309fc023ce32ad3ab608c7ca05bbc691b357',
+    },
+    tokenSymbol: 'RAIN',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+    },
+    quoteTokenSymbol: QuoteToken.SONIC,
+    quoteTokenAdresses: contracts.sonic,
+  },
+  {
     pid: 2,
     risk: 3,
     lpSymbol: 'WONE-BUSD LP',
@@ -133,6 +181,23 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid: 9,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'XYA',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x1485a496f816f940c510d634e48f8c66b78dc99e',
+    },
+    tokenSymbol: 'XYA',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
     pid: 7,
     risk: 3,
     lpSymbol: 'UST-BUSD LP',
@@ -149,20 +214,20 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   /* {
-    pid: 6,
-    risk: 1,
-    lpSymbol: 'DAI-BUSD LP',
+    pid: 8,
+    risk: 2,
+    lpSymbol: 'RAIN-JEWEL LP',
     lpAddresses: {
       97: '',
-      1666600000: '0x3ab77e40340ab084c3e23be8e5a6f7afed9d41dc',
+      1666600000: '0x359715a5beed69f1d0b8238dd9e0945f77b6a826',
     },
-    tokenSymbol: 'DAI',
+    tokenSymbol: 'RAIN',
     tokenAddresses: {
       97: '',
-      1666600000: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
+      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.JEWEL,
+    quoteTokenAdresses: contracts.jewel,
   },
   {
     pid: 7,

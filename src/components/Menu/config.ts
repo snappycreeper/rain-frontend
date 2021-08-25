@@ -81,7 +81,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://rainfinance.medium.com/',
+        href: 'https://rainfinance.gitbook.io/',
       },
     ],
   },

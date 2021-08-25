@@ -1828,9 +1828,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@snappycreeper/rain-uikit":
-  version "0.10.2"
-  resolved "https://codeload.github.com/snappycreeper/rain-uikit/tar.gz/75f9ce72896d8298ec2318f9c1feed115f64ffe4"
+"@pancakeswap-libs/uikit@snappycreeper/rain-uikit-master":
+  version "0.0.1"
+  resolved "https://codeload.github.com/snappycreeper/rain-uikit-master/tar.gz/3db04eafa5d75190acf9bcd40f237484176756b9"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

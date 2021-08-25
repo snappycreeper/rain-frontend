@@ -44,4 +44,19 @@ export default {
     1666600000: '0x224e64ec1bdce3870a6a6c777edd450454068fec',
     97: '',
   },
+  jewel: {
+    // this is JEWEL "0x72cb10c6bfa5624dd07ef608027e366bd690048f"
+    1666600000: '0x72cb10c6bfa5624dd07ef608027e366bd690048f',
+    97: '',
+  },
+  kuro: {
+    // this is KURO "0x3e018675c0ef63eb361b9ef4bfea3a3294c74c7b"
+    1666600000: '0x3e018675c0ef63eb361b9ef4bfea3a3294c74c7b',
+    97: '',
+  },
+  sonic: {
+    // this is SONIC "0x1e05C8B69e4128949FcEf16811a819eF2f55D33E"
+    1666600000: '0x1e05C8B69e4128949FcEf16811a819eF2f55D33E',
+    97: '',
+  },
 }
