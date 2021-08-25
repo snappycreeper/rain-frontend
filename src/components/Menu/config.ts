@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://viper.exchange/#/swap?outputCurrency=0xA95f77Abc1faFAFDD16d18b8700F670bF8BC990c',
+        href: 'https://viper.exchange/#/swap?outputCurrency=0xd009b07B4a65CC769379875Edc279961D710362d',
       },
       {
         label: 'Liquidity',
@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Chart',
-        href: 'https://info.viper.exchange/token/0xa95f77abc1fafafdd16d18b8700f670bf8bc990c',
+        href: 'https://info.viper.exchange/token/0xd009b07B4a65CC769379875Edc279961D710362d',
       },
       /* {
         label: 'CoinGecko',
