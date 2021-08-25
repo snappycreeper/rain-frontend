@@ -115,39 +115,44 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  /* {
-    pid: 4,
-    risk: 2,
-    lpSymbol: 'RAIN-VIPER LP',
+  {
+    pid: 6,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'WONE',
     lpAddresses: {
       97: '',
-      1666600000: '0x79118dbed6b6ff060d62d38781c8e79441be88f9',
+      1666600000: '0x4af68ad33eb03960ce146d4ecfba8f583d4a7ad8',
     },
-    tokenSymbol: 'RAIN',
+    tokenSymbol: 'WONE',
     tokenAddresses: {
       97: '',
-      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+      1666600000: '0xcf664087a5bb0237a0bad6742852ec6c8d69a27a',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
-  {
+  /* {
     pid: 5,
     risk: 2,
     lpSymbol: 'ETH-BNB LP',
+  {
+    pid: 7,
+    risk: 3,
+    lpSymbol: 'UST-BUSD LP',
     lpAddresses: {
       97: '',
-      1666600000: '0x70d8929d04b60af4fb9b58713ebcf18765ade422',
+      1666600000: '0x931dc999b67e528988dc98e0ab051528b38d7526',
     },
-    tokenSymbol: 'ETH',
+    tokenSymbol: 'UST',
     tokenAddresses: {
       97: '',
-      1666600000: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+      1666600000: '0x224e64ec1bdce3870a6a6c777edd450454068fec',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
-  {
+  /* {
     pid: 6,
     risk: 1,
     lpSymbol: 'DAI-BUSD LP',
