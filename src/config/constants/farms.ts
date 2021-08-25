@@ -187,7 +187,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'XYA',
     lpAddresses: {
       97: '',
-      1666600000: '0x1485a496f816f940c510d634e48f8c66b78dc99e',
+      1666600000: '0x902f7093dd1c553b10a2d07bf69491d7d25ddd7e',
     },
     tokenSymbol: 'XYA',
     tokenAddresses: {
