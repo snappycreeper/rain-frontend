@@ -39,4 +39,9 @@ export default {
     1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
     97: '',
   },
+  ust: {
+    // this is UST "0x224e64ec1bdce3870a6a6c777edd450454068fec"
+    1666600000: '0x224e64ec1bdce3870a6a6c777edd450454068fec',
+    97: '',
+  },
 }
