@@ -41,7 +41,6 @@ const PastDrawsPage: React.FC = () => {
     <Cards>
       <PastLotteryRoundViewer />
       <SecondCardColumnWrapper>
-        <PastDrawsHistoryCard />
         <BunnyImageWrapper>
           <img src="/images/pancake-lottery-bunny.png" alt="lottery bunny" />
         </BunnyImageWrapper>

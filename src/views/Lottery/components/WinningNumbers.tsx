@@ -36,7 +36,7 @@ const WinningNumbers: React.FC = () => {
                 </TicketNumberBox>
               ))}
             </Row>
-            <RabbitRow>
+            <RabbitRow> 
               <RabbitBox>
                 <CardImageFirst>
                   <Image src="/images/sign bunny 1@2x.png" alt="Number 1" width={200} height={150} responsive />
@@ -100,7 +100,7 @@ const WinningNumbers: React.FC = () => {
                 </CenteredTextWithPadding>
               </RowNoPadding>
             </Column>
-            <Link href="https://api.pancakeswap.com/api/lottery?page=0&pageSize=25" target="_blank">
+            <Link href="https://rainfinance.one" target="_blank">
               {TranslateString(448, 'Export recent winning numbers')}
             </Link>
           </StyledCardContentInner>
@@ -185,7 +185,7 @@ const CenteredTextWithPadding = styled.div`
 const TicketNumberBox = styled.div`
   padding: 10px;
   border-radius: 12px;
-  background: linear-gradient(180deg, #54dade 0%, #24c7d6 76.22%);
+  background: linear-gradient(180deg, #7c12a6 0%, #9A6AFF 76.22%);
   color: white;
   font-size: 20px;
   font-weight: 900;

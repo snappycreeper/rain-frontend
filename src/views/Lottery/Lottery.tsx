@@ -63,8 +63,8 @@ const Lottery: React.FC = () => {
       <Page>
         <Wrapper>
           <ButtonMenu activeIndex={activeIndex} onClick={handleClick} size="sm" variant="subtle">
-            <ButtonMenuItem>{TranslateString(999, 'Next draw')}</ButtonMenuItem>
-            <ButtonMenuItem>{TranslateString(999, 'Past draws')}</ButtonMenuItem>
+            <ButtonMenuItem>{TranslateString(999, 'Next Draw')}</ButtonMenuItem>
+            <ButtonMenuItem>{TranslateString(999, 'Past Draws')}</ButtonMenuItem>
           </ButtonMenu>
         </Wrapper>
         <Divider />

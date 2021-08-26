@@ -41,7 +41,7 @@ const LotteryProgress = () => {
   const timeUntilTicketSale = getTicketSaleTime(currentMillis)
   const timeUntilLotteryDraw = getLotteryDrawTime(currentMillis)
 
-  return (
+  /* return (
     <ProgressWrapper>
       <Progress primaryStep={getLotteryDrawStep(currentMillis)} secondaryStep={getTicketSaleStep()} showProgressBunny />
       <TopTextWrapper>
@@ -60,7 +60,7 @@ const LotteryProgress = () => {
         </BottomTextWrapper>
       )}
     </ProgressWrapper>
-  )
+  ) */
 }
 
 export default LotteryProgress
