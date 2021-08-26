@@ -106,13 +106,13 @@ const farms: FarmConfig[] = [
       97: '',
       1666600000: '0x3b01b988671e508207c2adaa87bed68981226c04',
     },
-    tokenSymbol: 'RAIN',
+    tokenSymbol: 'KURO',
     tokenAddresses: {
       97: '',
-      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+      1666600000: '0x3e018675c0ef63eb361b9ef4bfea3a3294c74c7b',
     },
-    quoteTokenSymbol: QuoteToken.KURO,
-    quoteTokenAdresses: contracts.kuro,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     pid: 11,
