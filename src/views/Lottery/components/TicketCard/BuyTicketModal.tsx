@@ -76,13 +76,13 @@ const BuyTicketModal: React.FC<BuyTicketModalProps> = ({ max, onDismiss }) => {
         availableSymbol="RAIN"
       />
       <div>
-        <Tips>{TranslateString(4546, 'Your amount must be a multiple of 10 RAIN')}</Tips>
-        <Tips>{TranslateString(4538, '1 Ticket = 10 RAIN')}</Tips>
+        <Tips>{TranslateString(4546425, 'Your amount must be a multiple of 10 RAIN')}</Tips>
+        <Tips>{TranslateString(453842, '1 Ticket = 10 RAIN')}</Tips>
       </div>
       <div>
         <Announce>
           {TranslateString(
-            478,
+            478752,
             'Ticket purchases are final. Your RAIN cannot be returned to you after buying tickets.',
           )}
         </Announce>
