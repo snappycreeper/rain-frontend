@@ -96,7 +96,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           tokenMode ?
             TranslateString(10345, 'Stake tokens to earn RAIN')
             :
-          TranslateString(321, 'Stake LP tokens to earn RAIN')
+          TranslateString(321, 'Stake VEMON-LP tokens to earn RAIN')
         }
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
