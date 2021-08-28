@@ -56,7 +56,7 @@ const Ifo = () => {
               {TranslateString(999, 'Buy RAIN')}
             </LinkExternal>
             <LinkExternal href="https://viper.exchange/#/add/0xd009b07B4a65CC769379875Edc279961D710362d/ONE">
-              {TranslateString(999, 'Get VEMON-LP tokens')}
+              {TranslateString(999, 'Get VENOM-LP tokens')}
             </LinkExternal>
           </Flex>
           <Heading mb="16px">{TranslateString(600, 'During Sale')}:</Heading>
