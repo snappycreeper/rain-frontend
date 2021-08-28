@@ -1,7 +1,7 @@
 import { Ifo } from './types'
 
 const ifos: Ifo[] = [
-  {
+  /* {
     id: 'blink',
     address: '0x44a9Cc8463EC00937242b660BF65B10365d99baD',
     isActive: false,
@@ -76,25 +76,25 @@ const ifos: Ifo[] = [
     currencyAddress: '0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6',
     tokenDecimals: 18,
     releaseBlockNumber: 3771926,
-  },
+  }, */
   {
-    id: 'soteria',
-    address: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
+    id: 'bjewel',
+    address: '0x0d4954a59E49848258fdcE57d073583aD3dEd669',
     isActive: true,
-    name: 'Soteria',
-    subTitle: 'A blockchain based mutual to share the risk of DeFi on Binance Smart Chain',
+    name: 'Baby Jewel',
+    subTitle: 'Hold BabyJewel, Earn Jewel',
     description:
-      'Soteria allows users to buy insurance cover to greatly diminish or reduce the financial risk of hacks. It replaces the idea of a traditional insurance company, because it is wholly owned by the members. The model encourages engagement as members receive economic incentives for participating in Risk Assessment, Claims Assessment and Governance.',
-    launchDate: 'Jan. 21',
-    launchTime: '4PM SGT',
-    saleAmount: '1,500,000 wSOTE',
-    raiseAmount: '$525,000',
-    cakeToBurn: '$262,500',
-    projectSiteUrl: 'https://soteria.finance/#/',
-    currency: 'CAKE-BNB LP',
-    currencyAddress: '0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6',
+      'One of the few tokens that rewards you with something other than the token itself, Simply hold BabyJewel tokens and get rewarded in JEWEL on every transaction. ',
+    launchDate: 'Aug. 28',
+    launchTime: '11:45AM CDT',
+    saleAmount: '10,000,000,000 BJEWEL',
+    raiseAmount: '$800',
+    cakeToBurn: '$160',
+    projectSiteUrl: 'https://www.babyjewel.xyz/',
+    currency: 'RAIN-WONE LP',
+    currencyAddress: '0x7e89412837e9adb14efadd4df1c5520caa24e21b',
     tokenDecimals: 18,
-    releaseBlockNumber: 4086064,
+    releaseBlockNumber: 16489000,
   },
 ]
 

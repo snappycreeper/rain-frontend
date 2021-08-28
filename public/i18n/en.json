@@ -440,6 +440,12 @@
     },
     {
       "data": {
+        "stringId": 45467,
+        "text": "%num% RAIN-WONE LP Available"
+      }
+    },
+    {
+      "data": {
         "stringId": 456,
         "text": "Your amount must be a multiple of 10 RAIN"
       }
@@ -813,13 +819,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy EGG and BNB tokens"
+        "text": "Buy RAIN and WONE tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get EGG-BNB LP tokens by adding EGG and BNB liquidity"
+        "text": "Get RAIN-WONE LP tokens by adding RAIN and WONE liquidity"
       }
     },
     {
@@ -831,7 +837,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your EGG-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your VEMON-LP tokens to buy the IFO tokens"
       }
     },
     {

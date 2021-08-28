@@ -168,6 +168,10 @@ export const getMax = async (lotteryContract) => {
   return lotteryContract.methods.maxNumber().call()
 }
 
+export const resetLottery = async (lotteryContract) => {
+  return lotteryContract.methods.reset().call()
+}
+
 export const getLotteryIssueIndex = async (lotteryContract) => {
   const issueIndex = await lotteryContract.methods.issueIndex().call()
   return issueIndex
