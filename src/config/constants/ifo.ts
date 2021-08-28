@@ -88,13 +88,13 @@ const ifos: Ifo[] = [
     launchDate: 'Aug. 28',
     launchTime: '11:45AM CDT',
     saleAmount: '10,000,000,000 BJEWEL',
-    raiseAmount: '$800',
-    cakeToBurn: '$160',
+    raiseAmount: '$5,000',
+    cakeToBurn: '$1,000',
     projectSiteUrl: 'https://www.babyjewel.xyz/',
     currency: 'RAIN-WONE LP',
     currencyAddress: '0x7e89412837e9adb14efadd4df1c5520caa24e21b',
     tokenDecimals: 18,
-    releaseBlockNumber: 16489000,
+    releaseBlockNumber: 3771926,
   },
 ]
 
