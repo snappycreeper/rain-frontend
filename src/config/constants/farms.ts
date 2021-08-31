@@ -138,13 +138,13 @@ const farms: FarmConfig[] = [
       97: '',
       1666600000: '0x46c480e4dfc15b99b727e3246c815a5833d76458',
     },
-    tokenSymbol: 'RAIN',
+    tokenSymbol: 'BJEWEL',
     tokenAddresses: {
       97: '',
-      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+      1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
     },
-    quoteTokenSymbol: QuoteToken.BJEWEL,
-    quoteTokenAdresses: contracts.bjewel,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     pid: 2,
@@ -210,8 +210,8 @@ const farms: FarmConfig[] = [
       97: '',
       1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.WONE,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 6,
