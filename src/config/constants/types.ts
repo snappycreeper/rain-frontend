@@ -34,6 +34,7 @@ export enum QuoteToken {
   'JEWEL' = 'JEWEL',
   'KURO' = 'KURO',
   'SONIC' = 'SONIC',
+  'BJEWEL' = 'BJEWEL',
 }
 
 export enum PoolCategory {

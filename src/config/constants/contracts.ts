@@ -59,4 +59,9 @@ export default {
     1666600000: '0x1e05C8B69e4128949FcEf16811a819eF2f55D33E',
     97: '',
   },
+  bjewel: {
+    // this is BJEWEL "0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec"
+    1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
+    97: '',
+  },
 }

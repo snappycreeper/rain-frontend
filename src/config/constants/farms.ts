@@ -131,6 +131,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.sonic,
   },
   {
+    pid: 12,
+    risk: 2,
+    lpSymbol: 'RAIN-BJEWEL DEFIKINGDOMS LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x46c480e4dfc15b99b727e3246c815a5833d76458',
+    },
+    tokenSymbol: 'RAIN',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xd009b07B4a65CC769379875Edc279961D710362d',
+    },
+    quoteTokenSymbol: QuoteToken.BJEWEL,
+    quoteTokenAdresses: contracts.bjewel,
+  },
+  {
     pid: 2,
     risk: 3,
     lpSymbol: 'WONE-BUSD LP',
@@ -164,23 +180,6 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 6,
-    risk: 1,
-    isTokenOnly: true,
-    lpSymbol: 'WONE',
-    lpAddresses: {
-      97: '',
-      1666600000: '0x4af68ad33eb03960ce146d4ecfba8f583d4a7ad8',
-    },
-    tokenSymbol: 'WONE',
-    tokenAddresses: {
-      97: '',
-      1666600000: '0xcf664087a5bb0237a0bad6742852ec6c8d69a27a',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
     pid: 9,
     risk: 1,
     isTokenOnly: true,
@@ -193,6 +192,40 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 13,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'BJEWEL',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x8d02a475ec60b1cb71980d3e1fdc0d264f0670fd',
+    },
+    tokenSymbol: 'BJEWEL',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 6,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'WONE',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x4af68ad33eb03960ce146d4ecfba8f583d4a7ad8',
+    },
+    tokenSymbol: 'WONE',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0xcf664087a5bb0237a0bad6742852ec6c8d69a27a',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
