@@ -12,10 +12,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
   }
   body {
-    background-color: ${({ theme }) => theme.colors.background};
+    background-image: url('/images/bg.gif');
+    background-repeat: no-repeat;
+    background-max-width: 100%,
 
-    img {
-      height: auto;
+    img { 
+      max-height: 200%;
       max-width: 100%;
     }
   }

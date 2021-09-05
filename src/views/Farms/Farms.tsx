@@ -96,15 +96,11 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           tokenMode ?
             TranslateString(10345, 'Stake tokens to earn RAIN')
             :
-          TranslateString(321, 'Stake VEMON-LP tokens to earn RAIN')
+          TranslateString(999, 'Stake VEMON-LP and JEWEL-LP tokens to earn RAIN')
         }
-      </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10070, 'Deposit Fee will be used to buyback RAIN')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
-        <Divider />
         <FlexLayout>
           <Route exact path={`${path}`}>
             {stakedOnly ? farmsList(stakedOnlyFarms, false) : farmsList(activeFarms, false)}
