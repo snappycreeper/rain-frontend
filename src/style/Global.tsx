@@ -14,10 +14,11 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-image: url('/images/bg.gif');
     background-repeat: no-repeat;
-    background-max-width: 100%,
+    background-size: cover;
+    no-repeat center center fixed;
 
     img { 
-      max-height: 200%;
+      max-length: 100%;
       max-width: 100%;
     }
   }
