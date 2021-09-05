@@ -180,18 +180,18 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 9,
+    pid: 14,
     risk: 1,
     isTokenOnly: true,
-    lpSymbol: 'XYA',
+    lpSymbol: 'JEWEL',
     lpAddresses: {
       97: '',
-      1666600000: '0x902f7093dd1c553b10a2d07bf69491d7d25ddd7e',
+      1666600000: '0x359715a5beed69f1d0b8238dd9e0945f77b6a826',
     },
-    tokenSymbol: 'XYA',
+    tokenSymbol: 'JEWEL',
     tokenAddresses: {
       97: '',
-      1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
+      1666600000: '0x72cb10c6bfa5624dd07ef608027e366bd690048f',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -212,6 +212,23 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.WONE,
     quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 9,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'XYA',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x902f7093dd1c553b10a2d07bf69491d7d25ddd7e',
+    },
+    tokenSymbol: 'XYA',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
   {
     pid: 6,
