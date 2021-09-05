@@ -186,7 +186,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'JEWEL',
     lpAddresses: {
       97: '',
-      1666600000: '0x359715a5beed69f1d0b8238dd9e0945f77b6a826',
+      1666600000: '0xe01502db14929b7733e7112e173c3bcf566f996e',
     },
     tokenSymbol: 'JEWEL',
     tokenAddresses: {
