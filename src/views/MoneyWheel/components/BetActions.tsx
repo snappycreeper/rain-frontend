@@ -59,7 +59,7 @@ const BetActions: React.FC<BetActionsProps> = ({ bet, onResult }) => {
             return (
                 <>
                     <Button fullWidth disabled={requestedApproval} onClick={handleApprove}>
-                        {TranslateString(999, 'Approve Money Wheel')}
+                        {TranslateString(999, 'Approve Lightning Wheel')}
                     </Button>
                 </>
             )
