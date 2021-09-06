@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { Heading, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Container from 'components/layout/Container'
-import LotteryProgress from './LotteryProgress'
 
 const Title = styled(Heading).attrs({ as: 'h1', size: 'xl' })`
   color: ${({ theme }) => theme.colors.secondary};
@@ -24,9 +23,7 @@ const StyledHero = styled.div`
 
 const StyledContainer = styled(Container)`
   display: flex;
-
   flex-direction: column;
-
   ${({ theme }) => theme.mediaQueries.sm} {
     flex-direction: row;
   }
@@ -35,11 +32,9 @@ const StyledContainer = styled(Container)`
 const LeftWrapper = styled.div`
   flex: 1;
   padding-right: 0;
-
   ${({ theme }) => theme.mediaQueries.sm} {
     padding-right: 24px;
   }
-
   ${({ theme }) => theme.mediaQueries.lg} {
     padding-right: 32px;
   }
@@ -52,12 +47,10 @@ const RightWrapper = styled.div`
   flex: 1;
   padding-left: 0;
   margin-top: 16px;
-
   ${({ theme }) => theme.mediaQueries.sm} {
     margin-top: 0;
     padding-left: 24px;
   }
-
   ${({ theme }) => theme.mediaQueries.lg} {
     padding-left: 32px;
   }
@@ -70,9 +63,9 @@ const Hero = () => {
     <StyledHero>
       <StyledContainer>
         <LeftWrapper>
-          <Title>{TranslateString(99966, 'The RAIN Lottery')}</Title>
-          <Blurb>{TranslateString(99946, 'Buy tickets with RAIN')}</Blurb>
-          <Blurb>{TranslateString(99975, 'Win if 2, 3, or 4 of your ticket numbers match!')}</Blurb>
+          <Title>{TranslateString(999, 'The RAIN Lightning Wheel')}</Title>
+          <Blurb>{TranslateString(999, 'Bet on a number with RAIN')}</Blurb>
+          <Blurb>{TranslateString(999, 'Win up to 50x your bet!')}</Blurb>
         </LeftWrapper>
       </StyledContainer>
     </StyledHero>

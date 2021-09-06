@@ -16,6 +16,7 @@ const Blurb = styled(Text)`
 `
 
 const StyledHero = styled.div`
+  background-image: linear-gradient(180deg, #7c12a6 0%, #9A6AFF 100%);
   padding-bottom: 40px;
   padding-top: 40px;
   margin-bottom: 32px;

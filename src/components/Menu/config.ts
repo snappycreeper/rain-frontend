@@ -30,20 +30,25 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: 'Layer 2 Farming',
-    icon: 'MoonIcon',
-    href: 'https://www.thevalleys.one/',
-  },
    {
     label: 'Lottery',
     icon: 'TicketIcon',
     href: '/lottery',
    },
    {
+    label: 'Lightning Wheel',
+    icon: 'SunIcon',
+    href: '/lightningwheel',
+  },
+   {
     label: 'Partnerships/IFO',
     icon: 'IfoIcon',
     href: '/ifo',
+  },
+  {
+    label: 'Layer 2 Farming',
+    icon: 'MoonIcon',
+    href: 'https://www.thevalleys.one/',
   },
   // {
   //   label: 'NFT',
@@ -85,7 +90,7 @@ const config: MenuEntry[] = [
         href: 'https://discord.gg/DTdeeZ4zKk',
       },
       {
-        label: 'Blog',
+        label: 'Gitbook',
         href: 'https://rainfinance.gitbook.io/',
       },
     ],

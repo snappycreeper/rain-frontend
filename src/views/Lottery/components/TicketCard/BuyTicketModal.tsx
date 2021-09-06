@@ -11,8 +11,10 @@ import { resetLottery } from 'utils/lotteryUtils'
 
 interface BuyTicketModalProps {
   max: BigNumber
+  // eslint-disable-next-line react/no-unused-prop-types
   onConfirm?: (amount: string, numbers: Array<number>) => void
   onDismiss?: () => void
+  // eslint-disable-next-line react/no-unused-prop-types
   tokenName?: string
 }
 

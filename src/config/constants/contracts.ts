@@ -7,6 +7,10 @@ export default {
     1666600000: '0x250d3098c31Dc0fE2eBe71EEeCAe806F434d9999',
     97: '',
   },
+  wheel: {
+    1666600000: '0xd04adBf7B6783Cf690e4290f4eb247CD8C29313a',
+    97: '',
+  },
   wbnb: {
     // this is WONE "0xcf664087a5bb0237a0bad6742852ec6c8d69a27a"
     1666600000: '0xcf664087a5bb0237a0bad6742852ec6c8d69a27a',
