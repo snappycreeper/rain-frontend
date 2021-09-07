@@ -5,14 +5,14 @@ import { Wheel } from 'react-custom-roulette'
 
 const wheelOptions = [
   { option: '50' },
-  { option: '1' },
+  { option: '0' },
   { option: '3' },
-  { option: '1' },
+  { option: '0' },
   { option: '5' },
 
   { option: '1' },
   { option: '3' },
-  { option: '1' },
+  { option: '0' },
   { option: '10' },
   { option: '3' },
 
@@ -23,12 +23,12 @@ const wheelOptions = [
   { option: '1' },
 
   { option: '3' },
-  { option: '1' },
+  { option: '0' },
   { option: '3' },
   { option: '1' },
   { option: '5' },
 
-  { option: '1' },
+  { option: '0' },
   { option: '10' },
   { option: '1' },
   { option: '3' },
@@ -38,12 +38,12 @@ const wheelOptions = [
   { option: '0' },
   { option: '1' },
   { option: '3' },
-  { option: '1' },
+  { option: '0' },
 
   { option: '5' },
   { option: '1' },
   { option: '3' },
-  { option: '1' },
+  { option: '0' },
   { option: '10' },
 
   { option: '5' },
@@ -56,12 +56,12 @@ const wheelOptions = [
   { option: '3' },
   { option: '1' },
   { option: '5' },
-  { option: '1' },
+  { option: '0' },
 
   { option: '3' },
-  { option: '1' },
+  { option: '0' },
   { option: '5' },
-  { option: '1' },
+  { option: '0' },
   { option: '10' },
   { option: '3' },
   { option: '1' },
