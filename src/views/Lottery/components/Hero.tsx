@@ -74,6 +74,9 @@ const Hero = () => {
           <Blurb>{TranslateString(99946, 'Buy tickets with RAIN')}</Blurb>
           <Blurb>{TranslateString(99975, 'Win if 2, 3, or 4 of your ticket numbers match!')}</Blurb>
         </LeftWrapper>
+        <RightWrapper>
+          <Blurb>{TranslateString(99946, 'The lottery draws every friday')}</Blurb>
+        </RightWrapper>
       </StyledContainer>
     </StyledHero>
   )

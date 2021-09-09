@@ -68,4 +68,9 @@ export default {
     1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
     97: '',
   },
+  mcone: {
+    // this is MCONE "0x7531905c4c80b602cff46badc1671fbad496f043"
+    1666600000: '0x7531905c4c80b602cff46badc1671fbad496f043',
+    97: '',
+  },
 }

@@ -147,6 +147,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 16,
+    risk: 2,
+    lpSymbol: 'RAIN-MCONE LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x7555255542b52479d4dbf658e20a462daa983e54',
+    },
+    tokenSymbol: 'MCONE',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x7531905c4c80b602cff46badc1671fbad496f043',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 2,
     risk: 3,
     lpSymbol: 'WONE-BUSD LP',
@@ -226,6 +242,23 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       1666600000: '0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 15,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'MCONE',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x3481580ab2a0d9c83368bca9d391324d4e8af2db',
+    },
+    tokenSymbol: 'MCONE',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x7531905c4c80b602cff46badc1671fbad496f043',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
