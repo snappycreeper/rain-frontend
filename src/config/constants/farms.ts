@@ -143,6 +143,7 @@ const farms: FarmConfig[] = [
       97: '',
       1666600000: '0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec',
     },
+    isDFK: true,
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },

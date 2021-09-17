@@ -7,6 +7,7 @@ import { Address } from 'config/constants/types'
 
 export interface ExpandableSectionProps {
   isTokenOnly?: boolean
+  isDFK?: boolean
   bscScanAddress?: string
   removed?: boolean
   totalValueFormated?: string
@@ -37,6 +38,7 @@ const StyledLinkExternal = styled(LinkExternal)`
 
 const DetailsSection: React.FC<ExpandableSectionProps> = ({
   isTokenOnly,
+  isDFK,
   bscScanAddress,
   removed,
   totalValueFormated,
@@ -47,16 +49,22 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
 }) => {
   const TranslateString = useI18n()
   const liquidityUrlPathParts = getLiquidityUrlPathParts({ quoteTokenAdresses, quoteTokenSymbol, tokenAddresses })
-
+  const dfkUrlPaths = (liquidtyUrlPathParts) => {
+    if (liquidtyUrlPathParts === "0xd009b07B4a65CC769379875Edc279961D710362d/0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec"){
+     return `https://app.defikingdoms.com/#/add/${liquidtyUrlPathParts}`
+    }
+    return `https://viper.exchange/#/add/${liquidtyUrlPathParts}`
+  }
+  const lpUrlPath = dfkUrlPaths(liquidityUrlPathParts)
   return (
     <Wrapper>
       <Flex justifyContent="space-between">
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
-          isTokenOnly ?
+          isTokenOnly ? 
             `https://viper.exchange/#/swap${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-          `https://viper.exchange/#/add/${liquidityUrlPathParts}`
+            `${lpUrlPath}`
         }>
           {lpLabel}
         </StyledLinkExternal>

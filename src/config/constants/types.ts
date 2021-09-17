@@ -71,6 +71,7 @@ export interface FarmConfig {
   quoteTokenSymbol: QuoteToken
   quoteTokenAdresses: Address
   multiplier?: string
+  isDFK?: boolean
   isTokenOnly?: boolean
   isCommunity?: boolean
   risk: number
