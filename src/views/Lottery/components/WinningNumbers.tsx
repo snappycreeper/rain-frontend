@@ -24,7 +24,7 @@ const WinningNumbers: React.FC = () => {
               <Title>
                 {account && lotteryHasDrawn
                   ? `🥳${TranslateString(570, 'Winning Numbers This Round')}🥳`
-                  : TranslateString(572, 'Latest Winning Numbers')}
+                  : TranslateString(999, '🥳 Winning Numbers This Round 🥳')}
               </Title>
               <br />
             </StyledCardHeader>
@@ -100,8 +100,8 @@ const WinningNumbers: React.FC = () => {
                 </CenteredTextWithPadding>
               </RowNoPadding>
             </Column>
-            <Link href="https://rainfinance.one" target="_blank">
-              {TranslateString(448, 'Export recent winning numbers')}
+            <Link href="https://viper.exchange/#/swap?outputCurrency=0xd009b07B4a65CC769379875Edc279961D710362d" target="_blank">
+              {TranslateString(999, 'Buy RAIN here!')}
             </Link>
           </StyledCardContentInner>
         </CardBody>
