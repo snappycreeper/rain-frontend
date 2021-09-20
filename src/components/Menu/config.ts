@@ -40,6 +40,11 @@ const config: MenuEntry[] = [
     icon: 'SunIcon',
     href: '/lightningwheel',
   },
+  {
+    label: 'Rain Crate',
+    icon: 'NftIcon',
+    href: 'https://lootblocks.one/0x22e1Da0698f504ca56A4A4D5d3395391d8cfdD7C/7',
+  },
    {
     label: 'Partnerships/IFO',
     icon: 'IfoIcon',
