@@ -53,6 +53,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
     if (liquidtyUrlPathParts === "0xd009b07B4a65CC769379875Edc279961D710362d/0x70831ee5f8a0434bd2ddb1e45ed24cbca8b41fec"){
      return `https://app.defikingdoms.com/#/add/${liquidtyUrlPathParts}`
     }
+    if (liquidtyUrlPathParts === "0xd009b07B4a65CC769379875Edc279961D710362d/0x5903720f0132e8bd48530010d9b3192b25f51d8e"){
+      return `https://copypasta.one/#/add/${liquidtyUrlPathParts}`
+     }
     return `https://viper.exchange/#/add/${liquidtyUrlPathParts}`
   }
   const lpUrlPath = dfkUrlPaths(liquidityUrlPathParts)
@@ -62,7 +65,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ? 
-            `https://viper.exchange/#/swap${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://viper.exchange/#/swap?outputCurrency=${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
             `${lpUrlPath}`
         }>

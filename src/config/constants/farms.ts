@@ -164,6 +164,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.cake,
   },
   {
+    pid: 17,
+    risk: 2,
+    lpSymbol: 'RAIN-PASTA COPYPASTA LP',
+    lpAddresses: {
+      97: '',
+      1666600000: '0xcf77f786bdac70d5c0c7709252bcd76dda166b92',
+    },
+    tokenSymbol: 'PASTA',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x5903720f0132e8bd48530010d9b3192b25f51d8e',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 2,
     risk: 3,
     lpSymbol: 'WONE-BUSD LP',
@@ -209,6 +225,23 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       1666600000: '0x72cb10c6bfa5624dd07ef608027e366bd690048f',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 18,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'PASTA',
+    lpAddresses: {
+      97: '',
+      1666600000: '0x94145808e60157af1f176972770034a774b31eef',
+    },
+    tokenSymbol: 'PASTA',
+    tokenAddresses: {
+      97: '',
+      1666600000: '0x5903720f0132e8bd48530010d9b3192b25f51d8e',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
