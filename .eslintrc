@@ -26,6 +26,7 @@
     "@typescript-eslint/no-use-before-define": 0,
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/no-explicit-any": 0,
+    "react/default-props-match-prop-types": [1, { "allowRequiredDefaults": false }],
     "react/prop-types": "off", // Since we do not use prop-types
     "react/require-default-props": "off", // Since we do not use prop-types
     "radix": 0,
