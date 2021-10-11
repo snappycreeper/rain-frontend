@@ -96,7 +96,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           tokenMode ?
             TranslateString(10345, 'Stake tokens to earn RAIN')
             :
-          TranslateString(999, 'Stake VEMON-LP, JEWEL-LP and COPYPASTA-LP tokens to earn RAIN')
+          TranslateString(999, 'Stake VEMON-LP and JEWEL-LP tokens to earn RAIN')
         }
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
