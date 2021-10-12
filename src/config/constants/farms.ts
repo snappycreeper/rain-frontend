@@ -19,22 +19,6 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 19,
-    risk: 2,
-    lpSymbol: 'RAIN-MIS DEFIKINGDOMS LP',
-    lpAddresses: {
-      97: '',
-      1666600000: '0xcf77f786bdac70d5c0c7709252bcd76dda166b92',
-    },
-    tokenSymbol: 'MIS',
-    tokenAddresses: {
-      97: '',
-      1666600000: '0xd74433b187cf0ba998ad9be3486b929c76815215',
-    },
-    quoteTokenSymbol: QuoteToken.CAKE,
-    quoteTokenAdresses: contracts.cake,
-  },
-  {
     pid: 1,
     risk: 5,
     lpSymbol: 'RAIN-BUSD LP',
